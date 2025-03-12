@@ -16,3 +16,16 @@ By studying the behavior of ants and other living organisms, researchers can gai
 
 In summary, the image of red ants climbing over a wooden post highlights the importance of considering the interactions between materials and living organisms when designing new materials, and the potential of multi-agent AI to help achieve this goal.
 ```
+
+```json
+{
+    "inputs": "<|image_1|>\n<QUESTION>",
+    "image": "<BASE64_ENCODED_IMAGE>",
+    "parameters": {
+        "max_new_tokens": 256,
+        "temperature": 0.1,
+        "do_sample": true,
+        "stop_strings": ["<|end|>", "<|endoftext|>"]
+    }
+}
+```
